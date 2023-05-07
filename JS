@@ -1,0 +1,3 @@
+// Javascript
+var nome = "Mundo";
+document.write("Olá " + nome + "!");
