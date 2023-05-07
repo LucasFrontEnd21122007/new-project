@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="code.css">
+    <link rel="stylesheet" type="text/js" href="code.js">
+    <link rel="stylesheet" type="text/json" href="package.json">
+    <title>Exemplo de Formulário</title>
+        <style>
+      /* Estilos CSS */
+      form {
+        width: 400px;
+        margin: 0 auto;
+      }
+      label {
+      margin-bottom: 10px;
+      display: block;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome">
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem"></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+    
+    <script src="code.js"></script>
+    
+    <script type="application/json" src="package.json"></script>
+  </body>
+</html>
